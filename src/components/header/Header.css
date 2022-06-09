@@ -1,0 +1,30 @@
+.header {
+    top: 0px;
+    background: #1abc9c;
+    color: white;
+}
+
+.navbar
+{
+    display: inline;
+    margin-top: 5px;
+    text-align: right;
+    float: right;
+}
+
+h1 {
+    display: inline;
+    margin-top: 0px;
+    text-align: left;
+
+    padding: 5px 5px 5px 20px;
+
+    color: white;
+}
+
+h2 {
+    display: inline;
+    margin-top: 0;
+    padding: 5px 20px 0px 0px;
+    color: white;
+}
