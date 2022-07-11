@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <div class="header">
+        <div className="header">
             <Link to ="">
                 <h1>Gavin Yahna's Portfolio</h1>
             </Link>
