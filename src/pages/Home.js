@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "../components/header/Header";
+import "./Home.css";
 
 const Home = () => {
   return (
     <>
-        <Header/>
-        <p>Insert Content Here</p>
+        <div className="home-body">
+          <Header/>
+          <p>Insert Content Here</p>
+        </div>
     </>
   );
 };
