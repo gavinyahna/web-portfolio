@@ -4,7 +4,6 @@ import Header from "../components/header/Header";
 const Webapps = () => {
 	return (
 		<>
-			<Header/>
 			<p>My WebApps</p>
 		</>
 	);

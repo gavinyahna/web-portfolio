@@ -1,22 +1,26 @@
 import React from "react";
+import Button from '@mui/material/Button';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 import "./Header.css";
 import {Link} from "react-router-dom";
 
 function Header() {
     return (
         <div className="header">
-            <Link to ="">
-                <h1>Gavin Yahna's Portfolio</h1>
+            <Link className="name" to ="">
+                <AcUnitIcon className="name-icon"/>
+                <b>Gavin Yahna</b>
             </Link>
-            <div class="navbar">
+            <div className="button-container">
                 <Link to="resume">
-                    <h2>Resume</h2>
+                    <Button className="btn" variant= "contained">Resume</Button>
                 </Link>
+                
                 <Link to="webapps">
-                    <h2>WebApps</h2>
+                    <Button className="btn" variant= "contained">WebApps</Button>
                 </Link>
                 <Link to="games">
-                    <h2>Games</h2>
+                    <Button className="btn" variant= "contained">Games</Button>
                 </Link>
             </div>
         </div>
