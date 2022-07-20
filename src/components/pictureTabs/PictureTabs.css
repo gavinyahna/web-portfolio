@@ -1,0 +1,33 @@
+.box {
+    width: 25%;
+}
+
+.picture {
+    height: 275x;
+    width: 275px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+.container {
+    background-color: transparent;
+    width: 100%;
+}
+
+.app-bar {
+    border-radius: 0.5em;
+    background-color: black;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

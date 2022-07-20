@@ -10,6 +10,7 @@ function Header() {
             <Link className="name" to ="">
                 <AcUnitIcon className="name-icon"/>
                 <b>Gavin Yahna</b>
+                <AcUnitIcon className="name-icon"/>
             </Link>
             <div className="button-container">
                 <Link to="resume">
