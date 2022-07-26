@@ -1,0 +1,45 @@
+.scroll {
+    overflow-y: auto;
+    text-align: center;
+    max-height: 45em;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 60%;
+}
+
+.website-picture {
+    height: 500x;
+    width: 900px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    display: block;
+}
+
+.webapps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    max-height: 60%;
+}
+
+.webapp-description {
+    margin-right: 2em;
+    margin-left: 2em;
+    width: 30%;
+    top: 0px;
+    text-align: left;
+}
+
+.accordion {
+    background-color: transparent;
+    color: white;
+}
+
+.accordion-text {
+    text-align: center;
+    bottom: 0px;
+}
+

@@ -58,7 +58,7 @@ function PictureTabs() {
   };
 
   return (
-    <Box className="box">
+    <Box className="picture-box">
       <AppBar className="app-bar" position="static">
         <Tabs 
           className="tabs"
