@@ -1,0 +1,18 @@
+.resume-page {
+    padding-right: 3em;;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-picture {
+    height: 500x;
+    width: 700px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    display: block;
+}
