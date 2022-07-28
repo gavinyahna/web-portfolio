@@ -11,7 +11,7 @@ const Resume = () => {
 			<ContentBox>
 				<div className="resume-container">
 					<img src={ResumePicture} className="resume-picture"/>
-					<a href={"https://docs.google.com/document/d/1DO5wQNl0K7_1_SDlFS3lYER-mCyC1r_lW4lv06imkYk"} download="GavinYahnaResume.pdf">
+					<a href={"../../public/documents/GavinYahnaResume.pdf"} download="GavinYahnaResume.pdf">
 						<Button className="btn" variant= "contained">Download Resume</Button>
 					</a>
 				</div>

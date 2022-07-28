@@ -10,10 +10,6 @@ function IntraleaguesDescription() {
             <div className="right webapp-description">
                 <h2>About Intraleagues</h2>
                 <p className="intro-text">
-                    Intraleagues was a collegiate video game league that acted as an online version of
-                    intermural sports.
-                </p>
-                <p className="intro-text">
                     Intraleagues started out as a Capstone class project at Brandeis University 
                     where I presented a business proposal along with three fellow students. We secured 
                     a spark grant for 5,000 dollars from our final class presentation and used that to 
@@ -31,6 +27,12 @@ function IntraleaguesDescription() {
                     Once our league was running tournaments with prize pools would be run for each school
                     similar to how intermural sports tournaments run. Teams would get notifications about when
                     their matches had to be played, and would report their results through the webapp.
+                </p>
+                <h2>Technologies and Frameworks</h2>
+                <p className="intro-text">
+                    Frontend - Vue.js <br/>
+                    Backend - Node.js <br/>
+                    DB - PostgreSQL
                 </p>
             </div>
         </>

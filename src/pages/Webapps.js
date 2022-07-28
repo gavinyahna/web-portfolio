@@ -17,7 +17,7 @@ const Webapps = () => {
 				<Accordion className="accordion">
 					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
 						<h1 className="accordion-text">Intraleagues</h1>
-						<h3 className>- Collegiate intramural video game league built with vue.js and node.js</h3>
+						<h3 className>- Collegiate intramural video game league</h3>
 					</AccordionSummary>
 					<AccordionDetails>
 						<IntraleaguesDescription/>
@@ -26,7 +26,7 @@ const Webapps = () => {
 				<Accordion className="accordion">
 					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
 						<h1 className="accordion-text">Sweetly Becca</h1>
-						<h3 className>- Website for a friends baking company built with react.js and node.js</h3>
+						<h3 className>- Website for a friends baking company</h3>
 					</AccordionSummary>
 					<AccordionDetails>
 						<SweetlyBeccaDescription/>
@@ -35,7 +35,7 @@ const Webapps = () => {
 				<Accordion className="accordion">
 					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
 						<h1 className="accordion-text">Streamline</h1>
-						<h3 className>- Note taking webapp with google calendar integration built with ruby on rails</h3>
+						<h3 className>- Note taking webapp with google calendar integration</h3>
 					</AccordionSummary>
 					<AccordionDetails>
 						<StreamlineDescription/>
@@ -44,7 +44,7 @@ const Webapps = () => {
 				<Accordion className="accordion">
 					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
 						<h1 className="accordion-text">Course Catalog</h1>
-						<h3 className>- Catalog of avaliable courses at Brandeis University built with ruby on rails</h3>
+						<h3 className>- Catalog of avaliable courses at Brandeis University</h3>
 					</AccordionSummary>
 					<AccordionDetails>
 						<CourseCatalogDescription/>
