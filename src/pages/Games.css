@@ -1,0 +1,29 @@
+.games-text {
+    padding-top: 0.5em; 
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+}
+
+.text {
+    text-align: left;
+    padding-top: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.blue {
+    color: skyblue;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.red {
+    color: lightcoral;
+}
+
+.yellow {
+    color: gold;
+}

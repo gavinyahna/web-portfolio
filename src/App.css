@@ -10,17 +10,19 @@ a {
 
 .home-background {
   background: url("/public/img/CecretLake.jpg");
+  background-color: black;
   background-repeat: no-repeat;
-  background-position: center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+
+  position: relative;
+
   margin-top: 0px;
   top: 0px;
 
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  min-height: 800px;
 }

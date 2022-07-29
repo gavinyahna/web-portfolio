@@ -6,6 +6,11 @@
     float: left;
 }
 
+.static-height {
+    min-height: 580px;
+    overflow: hidden;
+}
+
 .intro-text {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -26,4 +31,16 @@
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 0.5em;
+}
+
+
+.white-home-btn {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.home-btn {
+    margin-left: 1em;
+    margin-right: 1em;
 }

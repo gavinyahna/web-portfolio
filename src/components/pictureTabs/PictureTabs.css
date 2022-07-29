@@ -2,17 +2,15 @@
     margin: auto;
     text-align: center;
     color: white;
-
-    margin-top: 2em;
     margin-right: 2em;
     margin-left: 2em;
     border-radius: 0.5em;
-    padding: 0.5em;
+    min-height: 462px;
 }
 
 .picture {
-    height: 275x;
-    width: 275px;
+    height: 325x;
+    width: 325px;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 0.5em;
