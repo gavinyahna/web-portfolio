@@ -24,7 +24,7 @@ const Games = () => {
                 <h3 className="games-text">Engine and Frameworks</h3>
                 <p className="games-text">
                     Unity Engine <br/>
-                    Coded in C# .net Frameworks <br/>
+                    Coded in C# <br/>
                     Visuals created in Adobe Photoshop
                 </p>
                 <YoutubePlayer url="https://youtu.be/hnb9tdxjDv4?t=3" />
