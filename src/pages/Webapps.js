@@ -2,7 +2,7 @@ import React from "react";
 import ContentBox from "../components/contentBox/ContentBox"
 import IntraleaguesDescription from "../components/webappDescriptions/IntraleaguesDescription"
 import SweetlyBeccaDescription from "../components/webappDescriptions/SweetlyBeccaDescription"
-import StreamlineDescription from "../components/webappDescriptions/StreamLineDescription"
+import StreamlineDescription from "../components/webappDescriptions/StreamlineDescription"
 import CourseCatalogDescription from "../components/webappDescriptions/CourseCatalogDescription"
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
