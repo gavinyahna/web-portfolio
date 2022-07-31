@@ -7,7 +7,7 @@
     "build": "razzle build",
     "export": "razzle export",
     "test": "razzle test --env=jsdom",
-    "start": "NODE_ENV=production node build/server.js",
+    "start": "node server.js",
     "start:static": "serve -s build/public",
     "heroku-postbuild": "npm run build"
   },
