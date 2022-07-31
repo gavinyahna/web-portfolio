@@ -17,21 +17,22 @@ const Games = () => {
                     </p>
                     <p className="games-text">
                         Icy Boi can be downloaded from my Itch.io account if you want to try it out:
-                    </p>
-                    <a href="https://sp4ceboy.itch.io/icy-boi" target="_blank" rel="noreferrer">
+                        <a className="game-button" href="https://sp4ceboy.itch.io/icy-boi" target="_blank" rel="noreferrer">
                         <Button className="btn" variant= "contained">Download Game</Button>
-                    </a>
-                    
-                    <h3 className="games-text">Engine and Frameworks</h3>
-                    <p className="games-text">
-                        Unity Engine <br/>
-                        Coded in C# <br/>
-                        Visuals created in Adobe Photoshop
+                        </a>
                     </p>
-                    <h3 className="games-text">Demo</h3>
+                    <h3>Demo</h3>
                     <div className="game-video">
                         <YoutubePlayer url="https://youtu.be/hnb9tdxjDv4?t=3" />
                     </div>
+                    <p className="game-framework-text">
+                        <h3 className="game-framework-text">Engine and Frameworks -</h3> 
+                        Unity Engine |
+                        Coded in C# |
+                        Visuals created in Adobe Photoshop
+                        <br/>
+                        <br/>
+                    </p>
                 </ContentBox>
             </div>
             <div className="game-box">
@@ -57,15 +58,21 @@ const Games = () => {
                     <p className="yellow text">
                         Energy: Deals damage to enemies
                     </p>
-                    <h3 className="games-text">Engine and Frameworks</h3>
-                    <p className="games-text">
-                        Unreal Engine 5 <br/>
-                        Coded in C++
-                    </p>
-                    <h3 className="games-text">Demo</h3>
+                    
+                    <h3>Demo</h3>
                     <div className="game-video">
                         <YoutubePlayer url="https://www.youtube.com/watch?v=kqYobvNOIf0" /> 
-                    </div>                    
+                    </div>   
+                   
+                    <p className="game-framework-text">
+                        <h3 className="game-framework-text">
+                            Engine and Frameworks - 
+                        </h3>
+                        Unreal Engine 5 |
+                        Coded in C++
+                        <br/>
+                        <br/>
+                    </p>                 
                 </ContentBox>
             </div>
         </div>

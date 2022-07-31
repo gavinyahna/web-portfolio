@@ -5,9 +5,22 @@
     text-align: left;
 }
 
+.game-framework-text {
+    display: inline;
+    padding-top: 0.5em; 
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+}
+
 .game-box {
+    margin-bottom: 5em;
     top: 0px;
     width: 100%;
+}
+
+.game-button {
+    padding-left: 0.5em;
 }
 
 .game-video {

@@ -7,7 +7,7 @@ import "./Resume.css"
 
 const Resume = () => {
 	return (
-		<div classname="resume-page">
+		<div className="resume-page">
 			<ContentBox>
 				<div className="resume-container">
 					<img src={ResumePicture} className="resume-picture"/>
