@@ -3,12 +3,10 @@
   "version": "4.2.15",
   "license": "MIT",
   "scripts": {
-    "local-start": "razzle start",
+    "dev": "razzle start",
     "build": "razzle build",
-    "export": "razzle export",
     "test": "razzle test --env=jsdom",
-    "start": "node server.js",
-    "start:static": "serve -s build/public",
+    "start": "NODE_ENV=production node build/server.js",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
