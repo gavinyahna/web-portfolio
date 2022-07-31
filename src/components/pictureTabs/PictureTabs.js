@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 import dogPicture from "../../../public/img/WallyCar.jpg";
-import skiPicture from "../../../public/img/SkiPicture.jpg";
+import skiPicture from "../../../public/img/SkiingPicture.jpg";
 import familyPicture from "../../../public/img/FamilyHiking.jpg"
 
 import "./PictureTabs.css";
