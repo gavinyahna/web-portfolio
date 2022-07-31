@@ -3,7 +3,7 @@ import "./ContentBox.css";
 
 const ContentBox = ({children}) => {
     return (
-        <div className="box">
+        <div className="content-box">
             {children}
         </div>
     );

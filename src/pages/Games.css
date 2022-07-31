@@ -5,6 +5,18 @@
     text-align: left;
 }
 
+.game-box {
+    top: 0px;
+    width: 100%;
+}
+
+.game-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
 .text {
     text-align: left;
     padding-top: 0.1em;

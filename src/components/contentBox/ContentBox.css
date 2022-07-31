@@ -1,4 +1,4 @@
-.box {
+.content-box {
     overflow: auto;
     margin: auto;
     text-align: center;
@@ -8,6 +8,7 @@
     margin-top: 1em;
     margin-right: 2em;
     margin-left: 2em;
+    padding-bottom: 2em;
     border-radius: 0.5em;
     padding: 0.5em;
 }
