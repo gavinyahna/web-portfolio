@@ -12,39 +12,39 @@ import "./Webapps.css"
 
 const Webapps = () => {
 	return (
-		<div classname="webapps-container">
+		<div className="webapps-container">
 			<ContentBox>
 				<Accordion className="accordion">
-					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
-						<h1 className="accordion-text">Intraleagues</h1>
-						<h3 className>- Collegiate intramural video game league</h3>
+					<AccordionSummary expandIcon={<ExpandMoreIcon className="accordion" />}>
+						<h2 className="accordion-text">Intraleagues</h2>
+						<p className="accordion-text-small">- Collegiate intramural video game league</p>
 					</AccordionSummary>
 					<AccordionDetails>
 						<IntraleaguesDescription/>
 					</AccordionDetails>
 				</Accordion>
 				<Accordion className="accordion">
-					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
-						<h1 className="accordion-text">Sweetly Becca</h1>
-						<h3 className>- Website for a friends baking company</h3>
+					<AccordionSummary expandIcon={<ExpandMoreIcon className="accordion" />}>
+						<h2 className="accordion-text">Sweetly Becca -</h2>
+						<p className="accordion-text-small">Website for a friends baking company</p>
 					</AccordionSummary>
 					<AccordionDetails>
 						<SweetlyBeccaDescription/>
 					</AccordionDetails>
 				</Accordion>
 				<Accordion className="accordion">
-					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
-						<h1 className="accordion-text">Streamline</h1>
-						<h3 className>- Note taking webapp with google calendar integration</h3>
+					<AccordionSummary expandIcon={<ExpandMoreIcon className="accordion" />}>
+						<h2 className="accordion-text">Streamline - </h2>
+						<p className="accordion-text-small">Note taking webapp with google calendar integration</p>
 					</AccordionSummary>
 					<AccordionDetails>
 						<StreamlineDescription/>
 					</AccordionDetails>
 				</Accordion>
 				<Accordion className="accordion">
-					<AccordionSummary className="accordion-text" expandIcon={<ExpandMoreIcon className="accordion" />}>
-						<h1 className="accordion-text">Course Catalog</h1>
-						<h3 className>- Catalog of avaliable courses at Brandeis University</h3>
+					<AccordionSummary expandIcon={<ExpandMoreIcon className="accordion" />}>
+						<h2 className="accordion-text">Course Catalog -</h2>
+						<p className="accordion-text-small">Catalog of avaliable courses at Brandeis University</p>
 					</AccordionSummary>
 					<AccordionDetails>
 						<CourseCatalogDescription/>

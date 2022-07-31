@@ -15,9 +15,9 @@
 }
 
 .resume-picture {
-    height: 500x;
-    width: 800px;
+    height: auto;
+    width: 900px;
     border-radius: 0.5em;
     display: block;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
 }

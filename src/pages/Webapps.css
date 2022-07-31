@@ -1,6 +1,7 @@
 .scroll {
     overflow-y: auto;
     text-align: center;
+    margin: 0 auto;
     max-height: 45em;
     padding: 1em;
     border-radius: 0.5em;
@@ -10,8 +11,6 @@
 .website-picture {
     height: 500x;
     width: 900px;
-    margin-top: 1em;
-    margin-bottom: 1em;
     border-radius: 0.5em;
     display: block;
 }
@@ -21,7 +20,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 2em;
-    margin-bottom: 1em;
+    padding-bottom: 5em;
     max-height: 60%;
 }
 
@@ -36,10 +35,17 @@
 .accordion {
     background-color: transparent;
     color: white;
+    padding-bottom: 1em;
+}
+
+.accordion-text-small {
+    padding-top: 0.4em;
+    padding-left: 0.5em;
+    display: inline;
+    font-weight: normal;
+    font-size: 1.1em;
 }
 
 .accordion-text {
-    text-align: center;
-    bottom: 0px;
+    display: inline;
 }
-
