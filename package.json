@@ -3,12 +3,13 @@
   "version": "4.2.15",
   "license": "MIT",
   "scripts": {
+    "local-start": "razzle start",
     "build": "razzle build",
     "export": "razzle export",
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
     "start:static": "serve -s build/public",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "heroku-postbuild": "npm start"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -19,7 +20,6 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.2",
     "express": "^4.17.1",
-    "razzle-heroku": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-player": "^2.10.1",
