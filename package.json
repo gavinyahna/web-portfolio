@@ -9,7 +9,7 @@
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
     "start:static": "serve -s build/public",
-    "heroku-postbuild": "npm start"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
