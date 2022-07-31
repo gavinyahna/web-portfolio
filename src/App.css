@@ -23,6 +23,5 @@ a {
 
   margin-top: 0px;
   top: 0px;
-
-  min-height: 800px;
+  min-height: 100vh;
 }
