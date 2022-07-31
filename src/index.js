@@ -16,6 +16,8 @@ if (module.hot) {
 
 const port = process.env.PORT || 3000;
 
+console.log(process.env.PORT);
+
 export default express()
   .use((req, res) => app.handle(req, res))
   .listen(port, function(err) {
