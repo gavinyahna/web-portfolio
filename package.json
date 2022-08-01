@@ -24,7 +24,8 @@
     "react-player": "^2.10.1",
     "react-router-dom": "^5.1.2",
     "react-swipeable-views": "^0.14.0",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "serialize-javascript": "^6.0.0"
   },
   "devDependencies": {
     "babel-preset-razzle": "4.2.15",
