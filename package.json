@@ -1,7 +1,6 @@
 {
-  "name": "razzle-examples-with-react-router",
+  "name": "gavin-yahna-portfolio",
   "version": "4.2.15",
-  "license": "MIT",
   "homepage": "http://gavinyahna.github.io",
   "scripts": {
     "predeploy": "npm run build",
