@@ -2,7 +2,7 @@
   "name": "razzle-examples-with-react-router",
   "version": "4.2.15",
   "license": "MIT",
-  "homepage": "https://gavinyahna.github.io/web-portfolio",
+  "homepage": "http://gavinyahna.github.io/web-portfolio",
   "scripts": {
     "dev": "razzle start",
     "build": "razzle build",
