@@ -4,6 +4,8 @@
   "license": "MIT",
   "homepage": "http://gavinyahna.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
