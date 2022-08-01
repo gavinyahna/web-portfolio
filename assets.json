@@ -4,11 +4,11 @@
       "/static/css/client.19a01f27.css"
     ],
     "js": [
-      "/static/js/client.db381e87.js"
+      "/static/js/client.9dbb4ccb.js"
     ],
     "map": [
       "/static/css/client.19a01f27.css.map",
-      "/static/js/client.db381e87.js.map"
+      "/static/js/client.9dbb4ccb.js.map"
     ],
     "chunks": [
       0
@@ -49,7 +49,7 @@
     ],
     "txt": [
       "/robots.txt",
-      "/static/js/client.db381e87.js.LICENSE.txt"
+      "/static/js/client.9dbb4ccb.js.LICENSE.txt"
     ]
   }
 }
