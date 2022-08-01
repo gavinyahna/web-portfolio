@@ -13,12 +13,12 @@ const App = () => {
     <>
       <div className="home-background">
         <Header/>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/webapps" component={Webapps} />
-          <Route path="/games" component={Games} />
-        </Switch>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/webapps" component={Webapps} />
+            <Route path="/games" component={Games} />
+          </Switch>
         <Footer/>
       </div>
     </>

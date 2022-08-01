@@ -3,8 +3,6 @@ import React from 'react';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
-import serialize from 'serialize-javascript';
-import { runtimeConfig } from './config';
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -35,7 +33,6 @@ export const renderApp = (req, res) => {
   </head>
   <body>
       <div id="root">${markup}</div>
-      <script>window.env = ${serialize(runtimeConfig)};</script>
       <script src="${assets.client.js}" defer crossorigin></script>
   </body>
 </html>`;
