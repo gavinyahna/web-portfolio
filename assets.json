@@ -1,0 +1,55 @@
+{
+  "client": {
+    "css": [
+      "/static/css/client.19a01f27.css"
+    ],
+    "js": [
+      "/static/js/client.9dbb4ccb.js"
+    ],
+    "map": [
+      "/static/css/client.19a01f27.css.map",
+      "/static/js/client.9dbb4ccb.js.map"
+    ],
+    "chunks": [
+      0
+    ]
+  },
+  "noentry": {
+    "ico": [
+      "/favicon.ico"
+    ],
+    "jpg": [
+      "/img/CecretLake.jpg",
+      "/img/FamilyHiking.jpg",
+      "/img/ResumePicture.jpg",
+      "/img/SkiingPicture.jpg",
+      "/img/SquarePortrait.jpg",
+      "/img/WallyCar.jpg",
+      "/static/media/CecretLake.4c2ce64b.jpg",
+      "/static/media/FamilyHiking.d8df10b6.jpg",
+      "/static/media/ResumePicture.f2c71ab8.jpg",
+      "/static/media/SkiingPicture.51fcfd65.jpg",
+      "/static/media/SquarePortrait.1a410dc5.jpg",
+      "/static/media/WallyCar.f9f28b46.jpg"
+    ],
+    "png": [
+      "/img/CourseCatalogHome.png",
+      "/img/CourseCatalogList.png",
+      "/img/CourseCatalogListSmall.png",
+      "/img/IntraleaguesHome.png",
+      "/img/IntraleaguesHowItWorks.png",
+      "/img/StreamlineLogin.png",
+      "/img/SweetlyBeccaAbout.png",
+      "/img/SweetlyBeccaHome.png",
+      "/img/SweetlyBeccaMenu.png",
+      "/static/media/CourseCatalogList.515c6115.png",
+      "/static/media/IntraleaguesHome.e5ed7b56.png",
+      "/static/media/StreamlineLogin.9b4df171.png",
+      "/static/media/SweetlyBeccaAbout.7395d759.png"
+    ],
+    "txt": [
+      "/robots.txt",
+      "/static/js/client.9dbb4ccb.js.LICENSE.txt"
+    ]
+  }
+}
