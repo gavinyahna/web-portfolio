@@ -2,12 +2,14 @@
   "name": "razzle-examples-with-react-router",
   "version": "4.2.15",
   "license": "MIT",
+  "homepage": "http://gavinyahna.github.io/web-portfolio",
   "scripts": {
     "dev": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
-    "heroku-postbuild": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "babel-preset-razzle": "4.2.15",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^4.5.2",
     "mini-css-extract-plugin": "^0.9.0",
     "razzle": "4.2.15",
