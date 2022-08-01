@@ -1,7 +1,7 @@
 {
   "name": "gavin-yahna-portfolio",
   "version": "4.2.15",
-  "homepage": "http://gavinyahna.github.io",
+  "homepage": "https://gavinyahna.github.io/web-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
