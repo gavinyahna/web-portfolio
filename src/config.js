@@ -2,9 +2,9 @@ export const runtimeConfig =
   typeof window !== 'undefined'
     ? {
         // client
-        port: window.env.PORT,
+        $PORT: window.env.PORT,
       }
     : {
         // server
-        port: process.env.PORT,
+        $PORT: process.env.PORT,
       };
