@@ -18,6 +18,7 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.2",
     "express": "^4.17.1",
+    "razzle-heroku": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-player": "^2.10.1",
